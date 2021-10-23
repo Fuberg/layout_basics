@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
 <body>
@@ -11,7 +12,7 @@
 
         <header class="header">
             <div class="container">
-                <a href="#" class="logo"><img src="" alt="" class="logo__pic"></a>
+                <a href="#" class="logo"><div class="logo__pic"></div></a>
                 <nav class="menu">
                     <ul class="menu__list">
                         <li class="menu__item">
@@ -26,7 +27,7 @@
                     </ul>
                 </nav>
                 <address class="contacts">
-                    <a href="tel:+78007003030" class="contacts_phone">8 800 700 30 30</a>
+                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
                     <div class="contacts__workhours">График работы</div>
                 </address>
             </div>
@@ -35,12 +36,12 @@
 
         <main class="main">
 
-            <div class="section">
+            <section class="blocks-wrapper1">
                 <div class="performance">
                     <div class="container">
-                        <h1 class="performance__title">СНИМЕМ ДЛЯ ВАС КРЕАТИВНОЕ ВИДЕО</h1>
+                        <h1 class="performance__title">СНИМЕМ ДЛЯ ВАС <br> КРЕАТИВНОЕ ВИДЕО</h1>
                         <div class="performance__text">Креативный видеопродакшн полного цикла</div>
-                        <button class="performance__detail">Подробнее</button>
+                        <a href="#" class="performance__detail btn"><span class="btn__text">ПОДРОБНЕЕ</span></a>
                     </div>
                 </div>
                 <div class="services">
@@ -53,35 +54,35 @@
                                         <div class="services__col">От <span class="services__number">5</span> человек на проект</div>
                                         <div class="services__col"><span class="services__number">28</span> дней работы в среднем</div>
                                 </div>
-                                <p class="services__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <button class="services__detail">Подробнее</button>
+                                <p class="services__description">Креатив и производство рекламы, документального и корпоративного контента.</p>
+                                <a href="#" class="services__detail btn btn-white"><span class="btn__text">ПОДРОБНЕЕ</span></a>
                             </li>
                             <li class="services__item">
                                 <div class="services__icon"></div>
                                 <h2 class="services__name">Видео-клип</h2>
                                 <div class="services__row">
-                                        <div class="services__col">От <span class="services__number">5</span> человек на проект</div>
-                                        <div class="services__col"><span class="services__number">28</span> дней работы в среднем</div>
+                                        <div class="services__col">От <span class="services__number">7</span> человек на проект</div>
+                                        <div class="services__col"><span class="services__number">21</span> дней работы в среднем</div>
                                 </div>
-                                <p class="services__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <button class="services__detail">Подробнее</button>
+                                <p class="services__description">Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно! </p>
+                                <a href="#" class="services__detail btn"><span class="btn__text">ПОДРОБНЕЕ</span></a>
                             </li>
                             <li class="services__item">
                                 <div class="services__icon"></div>
                                 <h2 class="services__name">Свадьба</h2>
                                 <div class="services__row">
-                                        <div class="services__col">От <span class="services__number">5</span> человек на проект</div>
-                                        <div class="services__col"><span class="services__number">28</span> дней работы в среднем</div>
+                                        <div class="services__col">От <span class="services__number">2</span> человек на проект</div>
+                                        <div class="services__col"><span class="services__number">30</span> дней работы в среднем</div>
                                 </div>
-                                <p class="services__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <button class="services__detail">Подробнее</button>
+                                <p class="services__description">Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.</p>
+                                <a href="#" class="services__detail btn btn-white"><span class="btn__text">ПОДРОБНЕЕ</span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="section">
+            <section class="blocks-wrapper2">
                 <div class="news">
                     <div class="container">
                         <h2 class="news__header">НОВОСТИ И АКЦИИ</h2>
@@ -112,20 +113,22 @@
                     </div>
                 </div>
                 <div class="about">
-                    <div class="about__picture"></div>
-                    <div class="about__content">
-                        <h2 class="about__header">О НАС</h2>
-                        <p class="about__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi autem rem distinctio. Repellat eius laboriosam ut numquam porro atque optio veritatis cumque repellendus quam!</p>
-                        <button class="about__detail">Подробнее</button>
+                    <div class="container">
+                        <div class="about__picture"></div>
+                        <div class="about__content">
+                            <h2 class="about__header">О НАС</h2>
+                            <p class="about__description">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
+                            <a href="#" class="about__detail btn"><span class="btn__text">ПОДРОБНЕЕ</span></a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
         </main>
 
         <footer class="footer">
             <div class="container">
-                <a href="/" class="logo"><img src="" alt="" class="logo__pic"></a>
+                <a href="/" class="logo"><div class="logo__pic"></div></a>
                 <nav class="menu">
                     <ul class="menu__list">
                         <li class="menu__item">
@@ -141,15 +144,15 @@
                 </nav>
                 <div class="social-networks">
                     <ul class="social-networks__list">
-                        <li class="social-networks__item"><a href="" class="social-networks__link"><img src="" alt="" class="social-networks__icon"></a></li>
-                        <li class="social-networks__item"><a href="" class="social-networks__link"><img src="" alt="" class="social-networks__icon"></a></li>
-                        <li class="social-networks__item"><a href="" class="social-networks__link"><img src="" alt="" class="social-networks__icon"></a></li>
-                        <li class="social-networks__item"><a href="" class="social-networks__link"><img src="" alt="" class="social-networks__icon"></a></li>
+                        <li class="social-networks__item"><a href="#" class="social-networks__link"></a></li>
+                        <li class="social-networks__item"><a href="#" class="social-networks__link"></a></li>
+                        <li class="social-networks__item"><a href="#" class="social-networks__link"></a></li>
+                        <li class="social-networks__item"><a href="#" class="social-networks__link"></a></li>
                     </ul>
                 </div>
                 <address class="contacts">
                     <div class="contacts__text">Бесплатый звонок по России</div>
-                    <a href="tel:+78007003030" class="contacts_phone">8 800 700 30 30</a>
+                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
                 </address>
             </div>
         </footer>
