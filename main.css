@@ -63,6 +63,10 @@ ul li {
 
 /* ------------------------------------------------------------------------------------------------ */
 
+.header * {
+    vertical-align: top;
+}
+
 .logo {
     display: inline-block;
 }
@@ -77,9 +81,7 @@ ul li {
 }
 
 .header .menu {
-    position: relative;
-    top: -10px;
-    left: 190px;
+    margin: 17px 0 0 189px;
 }
 
 .menu__item {
@@ -116,11 +118,11 @@ ul li {
 .blocks-wrapper1 {
     background-image: url(./images/hero.jpg);
     background-repeat: no-repeat;
-    background-position: 0 -100px;
+    background-position: 0 -88px;
 }
 
 .performance {
-    padding-top: 71px;
+    padding-top: 80px;
     text-align: center;
 }
 
@@ -216,9 +218,8 @@ ul li {
 .services__description {
     color: #666;
     width: 306px;
-    height: 66px;
     font-size: 14px;
-    margin: 25px 0 42px -4px;
+    margin: 25px 0 50px -4px;
 }
 
 .services__detail {
@@ -232,7 +233,7 @@ ul li {
 }
 
 .news {
-    margin-top: 179px;
+    margin-top: 178px;
 }
 
 .news__header {
@@ -242,28 +243,40 @@ ul li {
 }
 
 .news__list {
-    margin-top: 49px;
+    margin-top: 50px;
 }
 
 .news__list .news__item:nth-child(1) {
-    background-image: url(./images/camera.jpg);
     margin-right: 21px;
 }
 
-.news__list .news__item:nth-child(2) {
-    background-image: url(./images/wedding.jpg);
+.info-card {
+    width: 557px;
+    position: relative;
+    vertical-align: top;
+    /* padding: 26px 32px; */
 }
 
-.info-card {
-    width: 493px;
-    height: 342px;
-    padding: 26px 32px;
+.news__cover {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
+.info-card__content {
+    position: absolute;
+    /* display: inline-block;
+    width: 100%; */
+    min-height: 140px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px 32px;
+} 
 
 .info-card__date {
     font-size: 14px;
-    margin-top: 228px;
-    margin-bottom: 0px;
 }
 
 .info-card__title {
@@ -275,7 +288,7 @@ ul li {
 
 .info-card__description {
     /* line-height: 1.2; */
-}
+} 
 
 .paginator {
     display: inline-block;
@@ -365,15 +378,22 @@ ul li {
     padding: 40px 0 60px;
 }
 
+.footer * {
+    vertical-align: top;
+}
+
 .footer .menu {
-    position: relative;
-    top: -10px;
-    left: 98px;
+    margin-left: 97px;
+}
+
+.footer .menu__item {
+    padding: 23px 26px 26px;
 }
 
 .social-networks {
     display: inline-block;
-    margin-left: 172px;
+    margin-left: 77px;
+    margin-top: 12px;
 }
 
 .social-networks__item {
