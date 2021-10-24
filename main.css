@@ -263,15 +263,18 @@ ul li {
 .info-card__date {
     font-size: 14px;
     margin-top: 228px;
+    margin-bottom: 0px;
 }
 
 .info-card__title {
     font-size: 24px;
-    margin-top: 15px;
+    line-height: 1.0;
+    margin-top: 16px;
+    margin-bottom: 0px;
 }
 
 .info-card__description {
-    margin-top: -20px;
+    /* line-height: 1.2; */
 }
 
 .paginator {
