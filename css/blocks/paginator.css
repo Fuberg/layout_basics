@@ -1,0 +1,41 @@
+
+.paginator {
+    display: inline-block;
+    margin: 50px 0 0 381px;
+}
+
+.paginator__display {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.paginator__list {
+    display: inline-block;
+    vertical-align: middle;
+    /* transform: translate(0, 15%); */
+    margin: 0 -13px 0 21px;
+}
+
+.paginator__item {
+    position: relative;
+    font-weight: 700;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0 -1px 0 0;
+}
+
+.paginator__item-active {
+    background: #FF5500;
+}
+
+.paginator__item:hover {
+    background: #FF5500;
+}
+
+.paginator__link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

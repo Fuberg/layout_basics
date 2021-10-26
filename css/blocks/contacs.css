@@ -1,0 +1,23 @@
+
+.contacts {
+    display: inline-block;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts>.contacts__phone {
+    font-size: 26px;
+
+}
+
+.contacts>.contacts__workhours {
+    font-size: 13px;
+    color: #FF3D00;
+    text-decoration: underline;
+}
+
+
+.contacts__text {
+    font-size: 11px;
+    color: #9A9A9A;
+}

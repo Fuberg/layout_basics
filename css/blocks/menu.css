@@ -1,0 +1,12 @@
+.menu {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.menu__item {
+    padding: 26px;
+}
+
+.menu__link:hover {
+    color: #FF3D00;
+}
