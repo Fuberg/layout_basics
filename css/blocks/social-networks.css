@@ -1,48 +1,54 @@
 
 .social-networks {
-    display: inline-block;
-    margin-left: 77px;
-    margin-top: 12px;
+    /* display: inline-block; */
+    /* margin-left: 77px; */
+    /* margin-top: 12px; */
 }
 
+.social-networks__list {
+    width: 174px;
+    justify-content: space-between;
+}
+
+
 .social-networks__item {
-    margin: 0 4px;
+    /* margin: 0 4px; */
 }
 
 .social-networks__link {
-    display: inline-block;
+    display: block;
     width: 36px;
     height: 36px;
 }
 
 .social-networks__list .social-networks__item:nth-child(1)>.social-networks__link {
-    background-image: url(./images/t.png);
+    background-image: url(../../images/t.png);
 }
 
 .social-networks__list .social-networks__item:nth-child(1)>.social-networks__link:hover {
-    background-image: url(./images/t2.png);
+    background-image: url(../../images/t2.png);
 }
 
 .social-networks__list .social-networks__item:nth-child(2)>.social-networks__link {
-    background-image: url(./images/vk.png);
+    background-image: url(../../images/vk.png);
 }
 
 .social-networks__list .social-networks__item:nth-child(2)>.social-networks__link:hover {
-    background-image: url(./images/vk2.png);
+    background-image: url(../../images/vk2.png);
 }
 
 .social-networks__list .social-networks__item:nth-child(3)>.social-networks__link {
-    background-image: url(./images/fb1.png);
+    background-image: url(../../images/fb1.png);
 }
 
 .social-networks__list .social-networks__item:nth-child(3)>.social-networks__link:hover {
-    background-image: url(./images/fb2.png);
+    background-image: url(../../images/fb2.png);
 }
 
 .social-networks__list .social-networks__item:nth-child(4)>.social-networks__link {
-    background-image: url(./images/in.png);
+    background-image: url(../../images/in.png);
 }
 
 .social-networks__list .social-networks__item:nth-child(4)>.social-networks__link:hover {
-    background-image: url(./images/in2.png);
+    background-image: url(../../images/in2.png);
 }

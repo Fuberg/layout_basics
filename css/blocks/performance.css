@@ -1,18 +1,28 @@
+.performance>.container--flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .performance {
-    padding-top: 140px;
+    padding-top: 137px;
+}
+
+.performance__title, .performance__text {
     text-align: center;
+    width: 776px;
 }
 
 .performance__title {
     font-size: 72px;
     font-weight: 800;
-    text-align: center;
-    margin-bottom: 11px;
 }
 
 .performance__text {
     font-size: 18px;
-    text-align: center;
-    margin-bottom: 55px;
+    margin-top: 11px;
+}
+
+.performance__detail {
+    margin-top: 38px;
 }

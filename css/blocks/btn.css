@@ -1,8 +1,4 @@
 .btn {
-    /* display: block; */
-    /* position: relative; */
-    /* width: 193px;
-    height: 53px; */
     background: #FF5500;
     border: 2px solid #FF5500;
     border-radius: 35px;
@@ -11,7 +7,6 @@
     font-weight: bold;
     padding: 18px 55px;
     min-width: 100px;
-    /* vertical-align: center; */
 }
 
 .btn-white {

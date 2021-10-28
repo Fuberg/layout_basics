@@ -1,10 +1,9 @@
 .menu {
-    display: inline-block;
     font-size: 14px;
 }
 
 .menu__item {
-    padding: 26px;
+    padding: 28px;
 }
 
 .menu__link:hover {

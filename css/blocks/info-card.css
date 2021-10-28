@@ -2,19 +2,15 @@
 .info-card {
     width: 557px;
     position: relative;
-    vertical-align: top;
-    /* padding: 26px 32px; */
 }
 
 .info-card__content {
     position: absolute;
-    /* display: inline-block;
-    width: 100%; */
     min-height: 140px;
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 5px 32px;
+    padding: 2px 32px;
 } 
 
 .info-card__date {

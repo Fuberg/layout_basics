@@ -1,28 +1,28 @@
 
 .paginator {
-    display: inline-block;
-    margin: 50px 0 0 381px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .paginator__display {
-    display: inline-block;
-    vertical-align: middle;
+    margin-right: 25px;
+    margin-left: 10px;
+    margin-top: 4px;
 }
 
 .paginator__list {
-    display: inline-block;
-    vertical-align: middle;
-    /* transform: translate(0, 15%); */
-    margin: 0 -13px 0 21px;
+    width: 236px;
+    justify-content: space-between;
 }
 
 .paginator__item {
+    cursor: pointer;
     position: relative;
     font-weight: 700;
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    margin: 0 -1px 0 0;
 }
 
 .paginator__item-active {

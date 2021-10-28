@@ -1,5 +1,5 @@
 * {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 html, body {
@@ -36,18 +36,27 @@ body {
     margin-right: auto;
 }
 
+.container--flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 a {
     color: inherit;
     text-decoration: none;
 }
 
 ul {
+    display: flex;
     margin: 0;
     padding: 0;
 }
 
 ul li {
-    display: inline-block;
+    /* display: inline-block; */
+    list-style-type: none;
+    text-decoration: none;
     margin: 0;
     padding: 0;
 }

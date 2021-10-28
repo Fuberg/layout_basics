@@ -11,10 +11,8 @@
 
 .news__list {
     margin-top: 50px;
-}
-
-.news__list .news__item:nth-child(1) {
-    margin-right: 21px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .news__cover {
@@ -22,4 +20,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.news .paginator {
+    margin-top: 55px;
 }
