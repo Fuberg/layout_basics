@@ -1,18 +1,7 @@
 
-.social-networks {
-    /* display: inline-block; */
-    /* margin-left: 77px; */
-    /* margin-top: 12px; */
-}
-
 .social-networks__list {
     width: 174px;
     justify-content: space-between;
-}
-
-
-.social-networks__item {
-    /* margin: 0 4px; */
 }
 
 .social-networks__link {

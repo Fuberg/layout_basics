@@ -36,6 +36,10 @@ body {
     margin-right: auto;
 }
 
+.flex {
+    display: flex;
+}
+
 .container--flex {
     display: flex;
     justify-content: space-between;
@@ -48,13 +52,11 @@ a {
 }
 
 ul {
-    display: flex;
     margin: 0;
     padding: 0;
 }
 
 ul li {
-    /* display: inline-block; */
     list-style-type: none;
     text-decoration: none;
     margin: 0;
