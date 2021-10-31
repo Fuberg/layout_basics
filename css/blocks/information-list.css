@@ -1,0 +1,7 @@
+.information-list__item {
+    justify-content: space-between;
+}
+
+.information-list__content {
+    width: 652px;
+}
