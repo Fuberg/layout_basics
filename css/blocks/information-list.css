@@ -24,12 +24,12 @@
     padding-top: 14px;
 }
 
-.information-list__content h2 {
+.information-list__title {
     font-weight: 700;
     font-size: 36px;
 }
 
-.information-list__content p {
+.information-list__description {
     margin-top: 10.5px;
     line-height: 1.70;
 }

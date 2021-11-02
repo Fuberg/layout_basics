@@ -68,23 +68,23 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-.blocks-wrapper1 {
+.main-top-content {
     background-image: url(../../images/hero.jpg);
     background-repeat: no-repeat;
     background-position: 0 -88px;
 }
 
-.blocks-wrapper2 {
+.main-additional-content {
     background-image: url(../../images/bottom-pic.jpg);
     background-position: 0 250px;
     background-repeat: no-repeat;
 }
 
-.blocks-wrapper3 {
+.services-top {
     background-image: url(../../images/top-line.jpg);
     background-repeat: no-repeat;
 }
 
-.blocks-wrapper4 {
+.services-content {
     background: #fff;
 }
