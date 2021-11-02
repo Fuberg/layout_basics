@@ -6,6 +6,6 @@
     padding: 28px;
 }
 
-.menu__link:hover {
+.menu__link:hover, .menu__link--active {
     color: #FF3D00;
 }

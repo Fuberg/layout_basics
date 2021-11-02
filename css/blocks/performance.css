@@ -10,7 +10,8 @@
 
 .performance__title, .performance__text {
     text-align: center;
-    width: 776px;
+    width: 70%;
+    /* width: 776px; */
 }
 
 .performance__title {

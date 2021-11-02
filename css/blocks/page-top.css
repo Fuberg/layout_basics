@@ -1,0 +1,16 @@
+.page-top {
+    padding-bottom: 28px;
+}
+
+.page-top>.container--flex {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 300px;
+}
+
+.page-top__title {
+    margin-top: 98px;
+    font-weight: 800;
+    font-size: 72px;
+}

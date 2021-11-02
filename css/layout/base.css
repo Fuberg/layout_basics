@@ -79,3 +79,12 @@ h1, h2, h3, h4, h5, h6 {
     background-position: 0 250px;
     background-repeat: no-repeat;
 }
+
+.blocks-wrapper3 {
+    background-image: url(../../images/top-line.jpg);
+    background-repeat: no-repeat;
+}
+
+.blocks-wrapper4 {
+    background: #fff;
+}

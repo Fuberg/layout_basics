@@ -25,7 +25,7 @@
     border-radius: 50%;
 }
 
-.paginator__item-active {
+.paginator__item--active {
     background: #FF5500;
 }
 
@@ -38,4 +38,16 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.paginator--black--theme {
+    color: #000000;
+}
+
+.paginator--black--theme .paginator__item--active {
+    color: #fff;
+}
+
+.paginator--black--theme .paginator__item:hover {
+    color: #fff;
 }

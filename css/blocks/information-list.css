@@ -1,7 +1,39 @@
+.information-list {
+    padding-top: 91px;
+    padding-bottom: 84px;
+}
+
 .information-list__item {
+    display: flex;
     justify-content: space-between;
 }
 
+.information-list__item:last-of-type {
+    margin-top: 49px;
+}
+
 .information-list__content {
-    width: 652px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #000;
+    width: 624px;
+    /* height: 100%; */
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+.information-list__content h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.information-list__content p {
+    margin-top: 10.5px;
+    line-height: 1.70;
+}
+
+.information-list .paginator {
+    margin-top: 69.5px;
 }

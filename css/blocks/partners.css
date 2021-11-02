@@ -1,0 +1,27 @@
+.partners {
+    color: #000;
+    background: #F4F5F5;
+    padding-top: 84px;
+    padding-bottom: 115px;
+}
+
+.partners__title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.partners__list {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.partners__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 70px;
+}
+
+.partners__row .partners__logo:nth-child(4n+4) {
+    margin-right: 49px;
+}
