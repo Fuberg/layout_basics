@@ -2,7 +2,7 @@
     color: #000;
     background: #F4F5F5;
     padding-top: 84px;
-    padding-bottom: 115px;
+    padding-bottom: 84px;
 }
 
 .partners__title {
@@ -11,17 +11,24 @@
 }
 
 .partners__list {
-    flex-direction: column;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
 
-.partners__row {
+.partners__item {
+    margin-left: 60px;
+    
+}
+
+.partners__item:nth-child(4n+1) {
+    margin-left: 0px;
+}
+
+.partners__link {
+    text-decoration: none;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-top: 70px;
-}
-
-.partners__row .partners__logo:nth-child(4n+4) {
-    margin-right: 49px;
+    width: 240px;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
 }
