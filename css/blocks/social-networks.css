@@ -6,38 +6,39 @@
 
 .social-networks__link {
     display: block;
+    background: url(../../images/social-networks.png);
     width: 36px;
     height: 36px;
 }
 
 .social-networks__list .social-networks__item:nth-child(1)>.social-networks__link {
-    background-image: url(../../images/t.png);
+    background-position: -234px -10px;
 }
 
 .social-networks__list .social-networks__item:nth-child(1)>.social-networks__link:hover {
-    background-image: url(../../images/t2.png);
+    background-position: -290px -10px;
 }
 
 .social-networks__list .social-networks__item:nth-child(2)>.social-networks__link {
-    background-image: url(../../images/vk.png);
+    background-position: -346px -10px;
 }
 
 .social-networks__list .social-networks__item:nth-child(2)>.social-networks__link:hover {
-    background-image: url(../../images/vk2.png);
+    background-position: -402px -10px;
 }
 
 .social-networks__list .social-networks__item:nth-child(3)>.social-networks__link {
-    background-image: url(../../images/fb1.png);
+    background-position: -10px -10px;
 }
 
 .social-networks__list .social-networks__item:nth-child(3)>.social-networks__link:hover {
-    background-image: url(../../images/fb2.png);
+    background-position: -66px -10px;
 }
 
 .social-networks__list .social-networks__item:nth-child(4)>.social-networks__link {
-    background-image: url(../../images/in.png);
+    background-position: -122px -10px;
 }
 
 .social-networks__list .social-networks__item:nth-child(4)>.social-networks__link:hover {
-    background-image: url(../../images/in2.png);
+    background-position: -178px -10px;
 }
