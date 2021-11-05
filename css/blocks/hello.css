@@ -1,0 +1,28 @@
+.hello {
+    background: url(../../images/hello-bg.jpg) no-repeat;
+    min-height: 960px;
+    position: relative;
+}
+
+.hello__content {
+    background: url(../../images/rec.png) no-repeat;
+    width: 1128px;
+    height: 643px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello__logo {
+    margin-top: 40px;
+}
+
+.hello__btn {
+    display: inline-block;
+    margin-top: 35px;
+}

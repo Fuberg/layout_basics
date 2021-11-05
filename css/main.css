@@ -16,7 +16,11 @@
 @import url(./blocks/footer.css);
 @import url(./blocks/social-networks.css);
 
+/* Добавилось на странице услуг */
 @import url(./blocks/information-list.css);
 @import url(./blocks/breadcrumbs.css);
 @import url(./blocks/page-top.css);
 @import url(./blocks/partners.css);
+
+/* Добавилось на странице приветственной */
+@import url(./blocks/hello.css)
