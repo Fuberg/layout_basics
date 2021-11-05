@@ -23,4 +23,7 @@
 @import url(./blocks/partners.css);
 
 /* Добавилось на странице приветственной */
-@import url(./blocks/hello.css)
+@import url(./blocks/hello.css);
+
+/* Добавилось на странице Отзывов */
+@import url(./blocks/reviews.css);
