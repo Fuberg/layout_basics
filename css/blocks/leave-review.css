@@ -1,0 +1,14 @@
+.leave-review {
+    background: #F4F5F5;
+    color: #202020;
+    padding: 79px 0 96px;
+}
+
+.leave-review__title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.leave-review__form {
+    margin-top: 56px;
+}

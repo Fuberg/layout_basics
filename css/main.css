@@ -15,6 +15,7 @@
 @import url(./blocks/about.css);
 @import url(./blocks/footer.css);
 @import url(./blocks/social-networks.css);
+@import url(./blocks/workhours.css);
 
 /* Добавилось на странице услуг */
 @import url(./blocks/information-list.css);
@@ -27,3 +28,6 @@
 
 /* Добавилось на странице Отзывов */
 @import url(./blocks/reviews.css);
+@import url(./blocks/delimiter.css);
+@import url(./blocks/leave-review.css);
+@import url(./blocks/form.css);

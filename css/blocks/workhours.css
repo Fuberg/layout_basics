@@ -1,0 +1,60 @@
+
+.workhours__label {
+    font-size: 13px;
+    color: #FF3D00;
+    text-decoration: underline;
+}
+
+.workhours {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.workhours:hover .workhours__content {
+    opacity: 0.8;
+} 
+
+.workhours__hover-slide {
+    position: absolute;
+    width: 100%;
+    height: 24px;
+    top: 2px;
+    right: 0;
+}
+
+.workhours__content:before {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    right: 40px; top: -20px; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-bottom: 10px solid rgba(255,255,255);
+}
+
+.workhours__content {
+    background: #fff;
+    opacity: 0.8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 156px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 24px;
+    right: -5px;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.workhours__row {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1E1F20;
+}
+
+.workhours__row:first-child {
+    font-weight: bold;
+}

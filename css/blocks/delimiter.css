@@ -1,0 +1,16 @@
+.delimiter {
+    min-height: 363px;
+    background: url(../../images/party.png) no-repeat right 18.5% top, linear-gradient(0deg, #373737, #373737);
+    display: flex;
+}
+
+.delimiter__title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 10px;
+    width: 48%;
+}
+
+.delimiter__title span {
+    color: #FF5500;
+}

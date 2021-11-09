@@ -11,7 +11,23 @@
     min-width: 100px;
 }
 
+.btn:hover {
+    background: #FF3D00;
+    border-color: #FF3D00;
+    color: #fff;
+}
+
 .btn-white {
     background: #fff;
     color: #FF5500;
+}
+
+.btn--grey {
+    background: #8E8E8E;
+    border-color: #8E8E8E;
+}
+
+.btn--grey:hover {
+    background: #2B2B2B;
+    border-color: #2B2B2B;
 }
