@@ -54,22 +54,6 @@
     background: url(../../images/vk-blue.png);
 }
 
-.tag {
-    color: #303030;
-    font-size: 13px;
-    line-height: 18px;
-    padding: 10px 25px;
-    background: #E7E7E7;
-    border-radius: 35px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.tag--bg--pink {
-    background: #F2D4C9;
-}
-
 .reviews__title {
     font-weight: bold;
     font-size: 30px;
