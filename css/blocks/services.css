@@ -15,6 +15,7 @@
     background: #fff;
     border-radius: 5px;
     border: 5px solid #fff;
+    transition: border-color 0.3s;
 }
 
 .services__item:hover {
@@ -24,21 +25,21 @@
 .services__list .services__item:nth-of-type(1)>.services__icon {
     width: 84px;
     height: 80px;
-    background-image: url(../../images/tv.png);
+    background: url(../../images/services-sprites.png) -202px -10px;
     background-repeat: no-repeat;
 }
 
 .services__list .services__item:nth-of-type(2)>.services__icon {
     width: 84px;
     height: 80px;
-    background-image: url(../../images/clapper.png);
+    background: url(../../images/services-sprites.png) -10px -10px;
     background-repeat: no-repeat;
 }
 
 .services__list .services__item:nth-of-type(3)>.services__icon {
     width: 84px;
     height: 80px;
-    background-image: url(../../images/film.png);
+    background: url(../../images/services-sprites.png) -106px -10px;
     background-repeat: no-repeat;
 }
 

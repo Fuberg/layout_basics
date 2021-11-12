@@ -13,6 +13,7 @@
 
 .workhours:hover .workhours__content {
     opacity: 0.8;
+    top: 24px;
 } 
 
 .workhours__hover-slide {
@@ -43,7 +44,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     position: absolute;
-    top: 24px;
+    top: -224px;
     right: -5px;
     opacity: 0;
     transition: opacity .3s;

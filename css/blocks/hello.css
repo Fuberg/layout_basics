@@ -1,17 +1,16 @@
-.wrapper {
+.hello-wrapper {
     background: url(../../images/hello-bg.jpg) no-repeat;
     min-height: 960px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hello {
     background: url(../../images/rec.png) no-repeat;
     width: 1128px;
     height: 643px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
     align-items: center;
